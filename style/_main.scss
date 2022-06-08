@@ -1,0 +1,36 @@
+*{
+    padding: 0px; margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    transition: all .5s ease-in-out ;
+}
+.btn{
+    padding: .8rem 2.5rem ;
+    border-radius: 6px;
+    border: 3px solid #f4cd23;
+    font-size: 1.1rem;
+    color: #000;
+    &:hover{
+        background-color: #f4cd23;
+        letter-spacing: 5px;
+    }
+}
+.tittle_heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 100px;
+    
+    span{
+        color:#f4cd23;
+    }        
+}
+
+.whats_app:hover ,.phone:hover{
+    background-color: rgb(107, 245, 26)
+}
+.instagram:hover{
+    background-color: rgb(236, 39, 134);
+}
+.gmail:hover{
+    background-color: #e11313;
+}
