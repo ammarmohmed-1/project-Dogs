@@ -15,27 +15,28 @@
     <!-- css & javaascript links -->
     <link rel="stylesheet" href="style/style.css">
     <script defer src="script/script.js"></script>
-
+    <script defer src="script/nav.js"></script>
     <title>Project Dogs</title>
 </head>
 <body>
-    <!-- Navbar -->
+   <!-- Navbar -->
     <navbar>
         <div class="logo"><img src="image/logo.png" alt=""></div>
+        
+        <div class="open"><i class="fa-solid fa-bars"></i></div>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our product</a></li>
-                <li><a href="#">Our Service</a></li>
-                <li><a href="#">our Team</a></li>
-                <li><a href="#">Contact infromation</a></li>
+            <ul class="navbar_none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#Our product">Our product</a></li>
+                <li><a href="index.html#our_service">Our Service</a></li>
+                <li><a href="index.html#Contact_infromation">Contactinfromation</a></li>
             </ul>
         </nav>
     </navbar>
-    <!-- Navbar -->
+    <!-- Navbar --> 
 
     <!-- Header -->
-    <header>
+    <header id="Home">
         <div class="Resume">
             <h1>name</h1>
             <p>
@@ -45,14 +46,14 @@
                 in optio blanditiis nobis eligendi, minima eveniet sit sed, nemo repellat culpa, quibusdam impedit 
                 enim dolorum! Earum, asperiores laudantium.
             </p>
-            <a href="#" class="btn">see more</a>
+            <a href="#Our product" class="btn">see more</a>
         </div>
     </header>
     <!-- Header -->
 
 
     <!-- our Prodect -->
-    <section class="our_products">
+    <section id="Our product" class="our_products">
 
         <h1 class="tittle_heading">Our <span>Prodects</span></h1>
 
@@ -71,7 +72,7 @@
                         </p>
                           
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
               </div>
 
               <!-- two -->
@@ -86,7 +87,7 @@
                       </p>
                         
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
             </div>
 
             <!-- three -->
@@ -101,7 +102,7 @@
                       </p>
                         
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
             </div>
 
             <!-- four -->
@@ -115,7 +116,7 @@
                           tenetur vero illo voluptatem ipsam, eaque ut, esse ipsa nam cupiditate.
                       </p>
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
             </div>
 
             <!-- five -->
@@ -130,7 +131,7 @@
                       </p>
                         
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
             </div>
 
             <!-- five -->
@@ -145,7 +146,7 @@
                       </p>
                         
                     </div>
-                    <button class="btn Buy">Buy now</button>
+                    <a class="btn Buy">Buy now</a>
             </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -154,7 +155,7 @@
 
         <!-- buy Now -->
         <div class="Buy_now">
-            <h1 style="color: #000;" class="close"><i class="fa-solid fa-xmark"></i></h1>
+            <h1 id="close"><i class="fa-solid fa-xmark"></i></h1>
             <form action="">
                 <h2>Buy Now</h2>
                 <input type="text" placeholder="Frist name">
@@ -164,14 +165,14 @@
                 
                 <input type="number" placeholder="inter your master card">
                 <input type="date">
-                <button class="btn Buy">Buy now</button>
+                <a href="#" class="btn">Buy now</a>
             </form>
         </div>
     </section>
     <!-- our Prodect -->
 
     <!-- our Service -->
-    <section class="our_service">
+    <section id="our_service" class="our_service">
         <h1 class="tittle_heading">Our <span>service</span></h1>
         <div>
             <button class="accordion">Section 1</button>
@@ -190,13 +191,14 @@
             </div>
         </div>
         <div class="link">
-            <a href="#" class="btn">See more</a>
+            <a href="kennels.html" class="btn">See more</a>
         </div>
     </section>
     <!-- our Service -->
 
-    <footer>
-        <h1 class="tittle_heading">contact infromation </h1>
+    <!-- Footer -->
+    <footer id="Contact_infromation">
+        <h1>contact infromation </h1>
         <div>
             <nav>
                 <ul>

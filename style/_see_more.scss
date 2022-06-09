@@ -1,0 +1,23 @@
+.UP_cards{
+    text-align: center;
+    h1{
+        padding: 3rem 0px;
+    }
+    .card{
+        padding: 4rem 0rem;
+        width: 90%;
+        margin: auto;
+        .imgDogs{
+            padding: 10px;
+            border-radius: 12px;
+            width: 200px;
+            height: auto;
+            &:hover{
+                transform: scale(1.4);
+            }     
+        }
+    }
+    .btn{
+        margin: 4rem 0rem;
+    }
+}

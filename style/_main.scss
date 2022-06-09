@@ -2,7 +2,7 @@
     padding: 0px; margin: 0px;
     list-style: none;
     text-decoration: none;
-    transition: all .5s ease-in-out ;
+    transition: all .3s ease-in-out ;
 }
 .btn{
     padding: .8rem 2.5rem ;
@@ -10,6 +10,7 @@
     border: 3px solid #f4cd23;
     font-size: 1.1rem;
     color: #000;
+    cursor: pointer;
     &:hover{
         background-color: #f4cd23;
         letter-spacing: 5px;

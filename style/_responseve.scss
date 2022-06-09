@@ -1,0 +1,43 @@
+@media screen and (max-width : 900px) {
+    navbar{
+        nav{
+            .navbar_none{
+                position: absolute;
+                left: 0px; top: -130%;
+            }
+            ul{
+                display: block;
+                width: 100%;  height: auto;
+                background-color: rgba(214, 208, 233, 0.9);
+                position: absolute;
+                left: 0px; top: 80px;
+            }
+        }
+
+        .open{
+            position: absolute;
+            right: 10px;
+            transition: all 1s;
+            display:block;
+            transform: scale(1.4);
+            margin:0px 22px;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 685px){
+    html{
+        font-size: 85%;
+
+    }
+    .our_products{
+        .mySwiper{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 685px){
+}
