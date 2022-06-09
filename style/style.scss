@@ -79,6 +79,7 @@ header{
 // style Buy now
     .Buy_now{
         display: none;
+        overflow: auto;
         width: 50%;  height: 90vh;
         z-index: 888;
         background-color: rgba(214, 208, 233, 0.9);
@@ -98,11 +99,17 @@ header{
             margin:3rem auto;
             display: flex;
             flex-direction: column;
-            input{
-                height: 30px;
-                margin: .5rem 0rem;
-                padding:0rem 1rem;
+            .form{
+                display: flex;
+                flex-direction: column;
+                input{
+                    height: 30px;
+                    margin: .5rem 0rem;
+                    padding:0rem 1rem;
+                }
             }
+            // style the service
+            
         }
 
     }

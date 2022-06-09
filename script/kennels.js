@@ -14,11 +14,22 @@ var close = document.getElementById("close");
 var i;
 
 
-// for(i = 0 ; i < Buy.length; i++ ){
-    Buy.addEventListener("click" , function(){
-      Buy_now.style.display ="block"
-    })
-// }
+// style the Buy now
+Buy.addEventListener("click" , function(){
+  Buy_now.style.display ="block"
+});
+
 close.addEventListener("click" , function(){
   Buy_now.style.display ="none"
+})
+
+// total price
+var number = document.getElementById("number");
+
+var Total = document.querySelector("#Total");
+
+number.addEventListener("keyup",function(){
+  let getTotal ="Total Price :" + +number.value *  +200 + " " + "KR";
+
+  Total.innerHTML = getTotal;
 })
