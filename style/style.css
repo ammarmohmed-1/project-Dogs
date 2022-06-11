@@ -43,7 +43,7 @@
 
 navbar {
   padding: 1rem;
-  border-bottom: 1px solid gold;
+  border: 10px solid rgb(198, 172, 24);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
