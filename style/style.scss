@@ -3,7 +3,7 @@
 // start style the navbar 
 navbar{
     padding: 1rem;
-    border: 10px solid rgb(198, 172, 24);
+    border-bottom: 1px solid rgb(198, 172, 24);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +55,7 @@ header{
                 min-height: 450px;
                 overflow: hidden;
                 cursor:grab;
-                &:active{ cursor: grabbing; }
-    
+                &:active{ cursor: grabbing; }    
                 img{ 
                     object-fit: cover;
                     width: 50%;   height: auto;
@@ -107,9 +106,7 @@ header{
                     margin: .5rem 0rem;
                     padding:0rem 1rem;
                 }
-            }
-            // style the service
-            
+            }            
         }
 
     }
